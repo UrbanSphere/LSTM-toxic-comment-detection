@@ -1,0 +1,14 @@
+name: lstm
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - ipykernel
+  - spacy
+  - matplotlib
+  - pandas
+  - scikit-learn
+  - wordcloud
+  - torchtext
+  - cudatoolkit=11.7
+  - pytorch==2.1.1
